@@ -1,0 +1,1 @@
+# Practica_SENATI_2026_20
