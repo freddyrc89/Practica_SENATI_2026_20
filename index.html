@@ -1,30 +1,55 @@
 <html lang="es">
+
+<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Saludos de la clase</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       max-width: 600px;
       margin: 40px auto;
       padding: 0 16px;
-      line-height: 1.6;
     }
-    h1 { text-align: center; }
-    li { margin-bottom: 6px; }
+
+    h1 {
+      text-align: center;
+    }
+
+    .tarjeta {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .tarjeta img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .tarjeta p {
+      font-size: 18px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>Saludos de la clase</h1>
- 
-  <!-- INSTRUCCION: reemplaza la linea "TU SALUDO AQUI" por tu saludo.
-       Ejemplo: <li>Hola, soy Ana Perez</li>
-       No borres las lineas de tus companeros. -->
-  <ul>
-    <li>Hola, soy el instructor</li>
-    <li>TU SALUDO AQUI</li>
-  </ul>
+
+  <h1>Bienvenido a CHENATI</h1>
+
+  <div class="tarjeta">
+    <img src="axel.jpg" alt="Mi foto">
+    <p>Hola, soy Axel</p>
+  </div>
+
 </body>
 </html>
  
